@@ -12,7 +12,31 @@ button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
-
+.visually-hidden
+{
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+article:hover
+{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;               
+}
+.contraste:hover
+{
+    background-color: #000000;
+}
+.text-intro
+{
+    font-size: 1.6em;
+    width: 620px;
+    margin: auto;
+}
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -508,6 +532,10 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    font-style: italic;
+    margin: 10px auto;
+    width: 250px;
+    height: 25px;
 }
 
 .scrollToTop {
@@ -653,7 +681,6 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
-
 .container {
     max-width: 1000px;
 }
@@ -710,7 +737,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -737,6 +764,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: 1em;
 }
 
 .portfolio-thumb {
