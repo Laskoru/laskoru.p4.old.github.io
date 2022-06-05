@@ -35,20 +35,9 @@
 		<div class="navbar row">
 			<div class="navbar-header">				
 				<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="Agence de Web Design dans la région Lyonnaise" class="size3" /></a>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-				</button>
+				
 			</div>
-			<nav class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-				<ul class="site-navigation nav navbar-nav">
-					<li>
-						<a href="index.html">Accueil</a>
-					</li>
-					<li>
-						<a href="page2.html">Contact</a>
-					</li>
-				</ul>
-			</nav>
+			
 		</div>
 	</div>
 </header>
@@ -73,41 +62,42 @@
 <!-- bloc-6 END -->
 
 <!-- bloc-7 -->
-<main class="bloc bgc-white l-bloc" id="bloc-7">
+<main class="bloc bgc-white l-bloc bg-lines-h2-bg bg-repeat l-bloc" id="bloc-7">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6 formulaire">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+				<form id="form_1" data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
 						<label>
-							Nom</br>
+							Nom
 						</label>
 						<input placeholder= "indiquez votre nom" id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
 						<label>
-							Adresse email</br>
+							Adresse email
 						</label>
-						<input placeholder= "votre adresse email"id="email" class="form-control" type="email" required />
+						<input placeholder= "votre adresse email" id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
 						<label>
-							Comment nous avez-vous connu ?</br>
+							Comment nous avez-vous connu ?
 						</label>
 						<input placeholder="Ex: internet, réseaux sociaux, etc..." class="form-control" type="email" required id="input_504" />
 					</div>
 					<div class="form-group">
 						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+							Brief de votre projet (Ajoutez autant de détails que nécessaire)
 						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
 					</button>
 				</form>
+				<iframe  class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.0829506555783!2d4.827978615760665!3d45.769527821038544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb020f3664e9%3A0x13e3d71752922c1f!2s2%20Pl.%20Sathonay%2C%2069001%20Lyon!5e0!3m2!1sfr!2sfr!4v1654446534977!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
 			<div class="col-sm-6">
-				<p>
+				<p class="coord">
 					contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 				</p>
 			</div>
@@ -130,18 +120,18 @@
 					Agence La Panthère - Agence web basée à Lyon.<br>
 				</p>
 				
-				<div class="row contraste1 margin">
-					<div class="col-sm-4">
-						Partenaires
+				<section class="row contraste1 margin">
+					<article class="col-sm-4">
+						<div class="footer-partenaire">Nos partenaires</div>
 							<ul class="footer">
 								<li class="partenaires"><a href="https://www.pilot-in.com"><img src="./img/pilotin.svg" alt="pilot'in" class="size-partenaire"></a></li>
 								<li class="partenaires"><a href="https://www.69pixl.com"><img src="./img/69pixl.svg" alt="69pixl" class="size-partenaire"></a></li>
 								<li class="partenaires"><a href="https://www.gentleview.fr"><img src="./img/gentleview.png" alt="gentleview" class="size-partenaire"></a></li>
 								<li class="partenaires"><a href="https://www.arkanite.com"><img src="./img/arkanite.webp" alt="arkanite" class="size-partenaire"></a></li>
 							</ul>		
-					</div>
+						</article>
 					
-				</div>
+				</section>
 			</footer>
 		</div>
 	</div>
