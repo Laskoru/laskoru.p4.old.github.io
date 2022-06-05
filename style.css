@@ -54,6 +54,8 @@ h5 {
 .coord
 {
     font-size: 15pt;
+    margin-top: 70px;
+    line-height: 30px;
 }
 form
 {
@@ -119,7 +121,19 @@ article:hover,
     margin: auto;
     max-width: 800px;
 }
-
+.titre-page2
+{
+    margin-top: -50px;
+    padding-top: 20px;
+}
+.text-center
+{
+    text-align: center;
+}
+.intro-page2
+{
+    font-size: 18pt;
+}
 a:hover {
     text-decoration: none;
     cursor: pointer
@@ -625,8 +639,8 @@ button {
     box-shadow: none;
     font-style: italic;
     margin: 10px auto;
-    width: 500px;
-    height: 40px;
+    width: 600px;
+    height: 50px;
 }
 
 .scrollToTop {
