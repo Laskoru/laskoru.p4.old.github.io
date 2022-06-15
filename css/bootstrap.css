@@ -283,7 +283,8 @@ th {
     }
 
     .navbar {
-        display: none
+        display: none;
+        
     }
 
     .btn>.caret,
@@ -1413,7 +1414,7 @@ textarea {
 }
 
 a {
-    color: color: rgba(0, 0, 0, .5);;
+    color: rgba(0, 0, 0, .5);
     text-decoration: none
 }
 
@@ -1439,7 +1440,6 @@ img {
 
 .carousel-inner>.item>a>img,
 .carousel-inner>.item>img,
-.img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
@@ -5277,7 +5277,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-collapse.in {
-    overflow-y: auto
+    overflow-y: auto;
+    
 }
 
 @media (min-width:768px) {
@@ -5435,15 +5436,11 @@ textarea.input-group-sm>.input-group-btn>.btn {
         display: none
     }
 }
-
-.navbar-nav {
-    margin: 7.5px -15px
-}
-
 .navbar-nav>li>a {
     padding-top: 10px;
     padding-bottom: 10px;
-    line-height: 20px
+    line-height: 20px;
+    text-align: center;
 }
 
 @media (max-width:767px) {
