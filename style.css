@@ -6,8 +6,15 @@ body {
     margin: 0;
     padding: 0;
 }
-#bloc-7
-{
+.social {
+    margin-top: 20px;
+   padding-bottom: 10px;
+   justify-content: center;
+}
+.fa {
+}
+#bloc-7 
+    {
     padding-bottom: 30px;
 }
 .presentation-article
@@ -59,6 +66,9 @@ h5 {
 .coord {
     position: relative;
     font-size: 15pt;
+  
+    
+    
     
 }
 
@@ -891,10 +901,17 @@ h4 {
 
 @media (min-width: 768px) 
 {
-    .coord {
-        top: -400px;
-    left: 100px;
+    #bloc_7 {
+        justify-content: space-between;
+        margin: auto;
     }
+    .coord {
+        float: right;
+        top: -400px;
+        margin-right: 30px;
+       
+    }
+    
     .footer {
         display: flex;
     }
@@ -948,11 +965,7 @@ h4 {
 
 @media (max-width: 1024px) 
 {
-    .bloc {
-        padding-left: 20px;
-        padding-right: 20px;
     }
-
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
@@ -964,10 +977,7 @@ h4 {
 
 @media (max-width: 992px) and (min-width: 768px) 
 {
-    .coord
-    {
-       float: right;
-    }
+    
     .navbar .nav {
         max-width: 80%;
     }
@@ -989,12 +999,7 @@ h4 {
         background-attachment: scroll;
     }
 }
-@media (min-width: 767px) and (max-width: 991px)
-{
-    .coord {
-        width: 290px;
-    }
-}
+
 @media (max-width: 991px) 
 {
     .footer {
@@ -1058,6 +1063,15 @@ h4 {
 }
 @media (max-width: 767px) 
 {
+    .coord {
+        margin-top: 100px;
+        text-align: center;
+    }
+    #form_1 {
+        margin: auto;
+        width: 95vw;
+        margin: auto 1vw;
+    }
     .portfolio-row
     {
         max-width: 300px;
