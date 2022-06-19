@@ -157,7 +157,7 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-    padding: 0 50px;
+    
 }
 
 .bloc .container {
@@ -1289,12 +1289,11 @@ h4 {
     p {
         font-size: 10pt;
     }
-
-    .form-control,
     form {
-        max-width: 95%;
+        width: 95vw;
+        text-align: center;
     }
-
+    
     .map {
         max-width: 100%;
         height: 300px;
