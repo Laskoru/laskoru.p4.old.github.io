@@ -11,8 +11,6 @@ body {
    padding-bottom: 10px;
    justify-content: center;
 }
-.fa {
-}
 #bloc-7 
     {
     padding-bottom: 30px;
@@ -965,14 +963,12 @@ h4 {
 
 @media (max-width: 1024px) 
 {
-    }
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
     .bloc-tile-4.full-width-bloc .container {
         padding-left: 0;
-        padding-right: 0;
-    }
+        padding-right: 0;}
 }
 
 @media (max-width: 992px) and (min-width: 768px) 
