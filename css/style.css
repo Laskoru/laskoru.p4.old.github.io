@@ -109,7 +109,7 @@ button {
 
 .visually-hidden {
     border: 0;
-    clip: rect(0000);
+   
     height: 1px;
     overflow: hidden;
     position: absolute;
@@ -1023,10 +1023,7 @@ h4 {
         position: relative;
     }
 
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+    
 
     .bloc-group,
     .bloc-group .bloc {
@@ -1036,7 +1033,7 @@ h4 {
 
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 constant(safe-area-inset-right) 0 constant(safe-area-inset-left);
+        padding: 0;
     }
 }
 @media (min-width : 492px) and (max-width : 767px) {
